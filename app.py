@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 app = Flask(__name__)
 
 # Loading the datasets (MOVIES & RATINGS)
-movies = pd.read_csv('C:/Users/Home/RecommendationSystem/movies.csv')
+movies = pd.read_csv('Add-file-path-of-movies.csv-here')
 
 movies_ratings_clust = movies.copy()
 
